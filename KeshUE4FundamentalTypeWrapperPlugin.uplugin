@@ -1,0 +1,20 @@
+{
+  "FileVersion": 3,
+
+  "FriendlyName": "Kesh UE4 Fundamental Type Wrapper Plugin",
+  "Version": 1,
+  "VersionName": "1.0",
+  "Description": "Wraps all the UE4 C++ fundamental types (int8, uint64, etc.) into BP-accessible structs.",
+  "Category": "Kesh.Blueprints",
+  "CreatedBy": "Matthew 'Daekesh' Chapman'",
+  "CanContainContent": false,
+  "EnabledByDefault": true,
+
+  "Modules": [
+    {
+      "Name": "KeshUE4FundamentalTypeWrapperPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    }
+  ]
+}
