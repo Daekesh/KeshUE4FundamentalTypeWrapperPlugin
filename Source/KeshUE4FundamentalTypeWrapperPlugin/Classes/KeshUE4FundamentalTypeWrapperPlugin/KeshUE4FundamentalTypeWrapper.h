@@ -1242,7 +1242,7 @@ public:
 	UFUNCTION( Category = "Kesh|UE4 Fundamental Types", BlueprintPure, DisplayName = "uint8 + int16" )
 	static FKeshInt16 KeshUE4FTUInt8PlusInt16( uint8 UI8, const FKeshInt16& I16 )
 	{
-		return UI8, I16.Value;
+		return UI8 + I16.Value;
 	}
 
 	/* UInt 16 */
@@ -1811,7 +1811,7 @@ public:
 	UFUNCTION( Category = "Kesh|UE4 Fundamental Types", BlueprintPure, DisplayName = "uint8 - int16" )
 	static FKeshInt16 KeshUE4FTUInt8SubtractInt16( uint8 UI8, const FKeshInt16& I16 )
 	{
-		return UI8, I16.Value;
+		return UI8 - I16.Value;
 	}
 
 	/* UInt 16 */
@@ -2380,7 +2380,7 @@ public:
 	UFUNCTION( Category = "Kesh|UE4 Fundamental Types", BlueprintPure, DisplayName = "uint8 * int16" )
 	static FKeshInt16 KeshUE4FTUInt8TimesInt16( uint8 UI8, const FKeshInt16& I16 )
 	{
-		return UI8, I16.Value;
+		return UI8 * I16.Value;
 	}
 
 	/* UInt 16 */
@@ -2949,7 +2949,7 @@ public:
 	UFUNCTION( Category = "Kesh|UE4 Fundamental Types", BlueprintPure, DisplayName = "uint8 / int16" )
 	static FKeshInt16 KeshUE4FTUInt8DivideInt16( uint8 UI8, const FKeshInt16& I16 )
 	{
-		return UI8, I16.Value;
+		return UI8 / I16.Value;
 	}
 
 	/* UInt 16 */
